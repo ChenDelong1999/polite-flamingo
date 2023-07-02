@@ -1,6 +1,6 @@
 # Polite Flamingo🦩
 
-<p align="center"><img src="./assets/teaser.png" alt="teaser" width="350"></p>
+<p align="center"><img src="./assets/teaser.png" alt="teaser" width="450"></p>
 
 **Visual Instruction Tuning with Polite Flamingo**. arXiv 2023. [[PDF]](https://arxiv.org/abs/0000.00000)
  
