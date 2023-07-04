@@ -2,7 +2,7 @@
 
 <p align="center"><img src="./assets/teaser.png" alt="teaser" width="450"></p>
 
-**Visual Instruction Tuning with Polite Flamingo**. arXiv 2023. [[PDF]](https://arxiv.org/abs/0000.00000)
+**Visual Instruction Tuning with Polite Flamingo**. arXiv 2023. [[PDF]](https://arxiv.org/abs/2307.01003)
  
 [Delong Chen (陈德龙)](https://chendelong.world/) $^1$ , [Jianfeng Liu (刘剑锋)](https://www.linkedin.com/in/jianfeng-liu-9539897b/) $^1$ , [Wenliang Dai (戴文亮)](https://wenliangdai.github.io/) $^2$ , [Baoyuan Wang (王宝元)](https://sites.google.com/site/zjuwby/) $^1$ 
 
