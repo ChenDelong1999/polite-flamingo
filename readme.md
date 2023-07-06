@@ -1,9 +1,10 @@
 
-<div align="center"> <img src="assets/flamingo (1).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (2).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (3).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (4).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (5).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (6).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp;  <img src="assets/flamingo (7).png" alt="Logo" width="50"></div>
-
 <div align="center">
   <img src="assets/logo.png" alt="Logo" width="160">
 </div>
+
+<div align="center"> <img src="assets/flamingo (1).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (2).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (3).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (4).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (5).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/flamingo (6).png" alt="Logo" width="50"> &nbsp; &nbsp; &nbsp; &nbsp;  <img src="assets/flamingo (7).png" alt="Logo" width="50"></div>
+
 
 ## Visual Instruction Tuning with Polite Flamingo🦩
 
