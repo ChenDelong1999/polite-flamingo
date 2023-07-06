@@ -32,7 +32,6 @@
 
 [[arXiv]](https://arxiv.org/abs/2307.01003) | 
 [[Github]](https://github.com/ChenDelong1999/polite_flamingo) | 
-<!-- [[Demo]](http://8.130.11.27:44402/) | -->
 [[Demo (coming soon)]]() |
 [[PF-1M Dataset (coming soon)]]()
 
