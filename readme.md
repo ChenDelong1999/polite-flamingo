@@ -2,7 +2,6 @@
 <div align="center">
   <img src="assets/logo.png" alt="Logo" width="128">
 
-
 ## Visual Instruction Tuning with Polite Flamingo
 
 [Delong Chen (陈德龙)](https://chendelong.world/)
@@ -39,12 +38,12 @@
 
 
 
-## News
+## <img src="assets/flamingo (1).png" alt="Logo" width="30"> News 
 
 - **2023/06/30**: Welcome to Polite Flamingo🦩! The preprint of our paper is available on [[arXiv]](https://arxiv.org/abs/2307.01003). You can also see the pdf [[here]](./assets/Visual_Instruction_Tuning_with_Polite_Flamingo.pdf). We are working on curating pretrained checkpoints (Polite & Clever Flamingo) and the dataset (PF-1M), and will release them soon. Stay tuned!
 
 
-## Introduction
+## <img src="assets/flamingo (2).png" alt="Logo" width="30"> Introduction
 
 
 Recent studies have shown that multi-task fine-tuning of multi-modal Large Language Models (LLMs) using a collection of annotated downstream vision-language datasets leads to substantial improvement. However, a side effect which we termed as "multi-modal alignment tax" emerges during this process, where the response formatting ability (i.e., "politeness") is significantly affected due to the extremely concise and unformatted nature of raw annotations, leading to reduced human preference. 
@@ -53,15 +52,14 @@ Recent studies have shown that multi-task fine-tuning of multi-modal Large Langu
 
 In this paper, we propose Polite Flamingo, a multi-modal response rewriter that converts raw annotations into their more satisfying "polite" form. Polite Flamingo is trained to reconstruct high-quality responses given their automatically distorted versions, and is then applied to a wide range of vision-language datasets for response rewriting. After rigorous filtering, we generate the PF-1M dataset and further validate its value by fine-tuning a multi-modal LLM with it.
 
-<!-- 
-The resulting multi-modal LLM has the following features:
+<!-- The resulting multi-modal LLM has the following features:
 - clever, polite
 - multi-turn multi-image conversation,multi-image reasoning
-- ...
+- ... -->
 
 
 
-## Getting Started
+## <img src="assets/flamingo (3).png" alt="Logo" width="30"> Getting Started
 
 Our code is developed upon [OpenFlamingo](https://github.com/mlfoundations/open_flamingo), and therefore inherits its environment dependencies. One can use an OpenFlamingo environment to run our code, or create one as [here](https://github.com/mlfoundations/open_flamingo#installation)
 
@@ -78,7 +76,7 @@ pip install gradio
 ```
 
 
-## Loading Clever Flamingo
+## <img src="assets/flamingo (4).png" alt="Logo" width="30"> Loading Clever Flamingo
 
 The following code provides an example of loading Clever Flamingo
 
@@ -91,7 +89,7 @@ import torch
 inferencer = Inferencer(
   lm_path="decapoda-research/llama-7b-hf",
   clip_vision_encoder_path="ViT-L-14-336",
-  tuning_config='https://huggingface.co/timdettmers/guanaco-7b',
+  tuning_config='timdettmers/guanaco-7b',
   )
 
 # Download pretrained checkpoint
@@ -100,6 +98,7 @@ inferencer.model.load_state_dict(torch.load(checkpoint_path, map_location="cpu")
 ```
 
 ```python
+# FIXME: This script may not be fully ready to use, we will update it soon if bug occured
 def get_prompt(instruction, raw_annotation=None, mode='clever_flamingo'):
   system_message = 'A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user\'s questions.'
   if mode=='clever_flamingo':
@@ -108,10 +107,10 @@ def get_prompt(instruction, raw_annotation=None, mode='clever_flamingo'):
     return f'{system_message}\n### Human: {instruction}\n### Assistent: (Drafted Response): {raw_annotation}\n (Revised Response): '
 
 prompt = get_prompt(
-    'How many people are there in this image? What are they doing, and what should I prepare when I am going to such an event? List it point by point.<image><|endofchunk|>'
+    'You are a visual AI assistant based on multi-modal large language model. Your name is given to be Clever Flamingo, and this image is your logo. What do you think about your name? Do you like your logo? <image><|endofchunk|>'
     )
 imgpaths = [
-    '/cpfs/user/chendelong/open_flamingo/demos/my_demos/images/000000002685.jpg',
+    'assets/logo.png',
     ]
 
 response, full_text = inferencer(
@@ -130,9 +129,7 @@ response, full_text = inferencer(
 print(prompt, response, sep='')
 ```
 
- -->
-
-## Citation
+## <img src="assets/flamingo (5).png" alt="Logo" width="30"> Citation
 
 ```bibtex
 @article{chen2023visual,
