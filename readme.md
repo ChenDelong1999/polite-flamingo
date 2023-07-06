@@ -1,3 +1,26 @@
+<div style="display: flex; align-items: center;">
+  <img src="assets/logo.png" alt="Logo" width="128" style="margin-right: 20px;">
+  <div>
+    <h2>Visual Instruction Tuning with Polite Flamingo🦩</h2>
+    <p style="margin-top: 10px;">
+      <a href="https://chendelong.world/">Delong Chen (陈德龙)</a>
+      <img src="assets/xiaobing_logo.jpg" alt="Logo" width="10" style="margin-right: 5px;"> ,
+      <a href="https://www.linkedin.com/in/jianfeng-liu-9539897b/">Jianfeng Liu (刘剑锋)</a>
+      <img src="assets/xiaobing_logo.jpg" alt="Logo" width="10" style="margin-right: 5px;"> ,
+      <a href="https://wenliangdai.github.io/">Wenliang Dai (戴文亮)</a>
+      <img src="assets/hkust_logo.png" alt="Logo" width="8" style="margin-right: 5px;">,
+      <a href="https://sites.google.com/site/zjuwby/">Baoyuan Wang (王宝元)</a>
+      <img src="assets/xiaobing_logo.jpg" alt="Logo" width="10" style="margin-right: 5px;">
+    </p>
+    <p>
+      <img src="assets/xiaobing_logo.jpg" alt="Logo" width="15" style="margin-right: 5px;"> Xiaobing.AI,
+      <img src="assets/hkust_logo.png" alt="Logo" width="10" style="margin-right: 5px;"> Hong Kong University of Science and Technology
+    </p>
+  </div>
+</div>
+
+
+
 
 <div align="center">
   <img src="assets/logo.png" alt="Logo" width="128">
