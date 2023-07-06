@@ -6,7 +6,7 @@
 ## Visual Instruction Tuning with Polite Flamingo
 
 [Delong Chen (陈德龙)](https://chendelong.world/)
-<img src="assets/xiaobing_logo.jpg" alt="Logo" width="10"> , &nbsp; 
+<img src="assets/xiaobing_logo.jpg" alt="Logo" width="10"><img src="assets/hkust_logo.png" alt="Logo" width="8"> , &nbsp; 
 [Jianfeng Liu (刘剑锋)](https://www.linkedin.com/in/jianfeng-liu-9539897b/) 
 <img src="assets/xiaobing_logo.jpg" alt="Logo" width="10"> , &nbsp; 
 [Wenliang Dai (戴文亮)](https://wenliangdai.github.io/)
