@@ -1,10 +1,7 @@
-
-
 import torch
 from PIL import Image
 from polite_flamingo.src.factory import create_model_and_transforms
-import requests
-import json
+
 
 class Inferencer:
     def __init__(self, lm_path, clip_vision_encoder_path, tuning_config):
@@ -16,7 +13,7 @@ class Inferencer:
             cross_attn_every_n_layers=4,
             lora_weights=tuning_config,
         )
-        # print(get_params_count_summary(model))
+
         model.half()
         model = model.to("cuda")
         model.eval()
