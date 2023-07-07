@@ -34,11 +34,11 @@
 
 </div>
 
-
-
 ## <img src="assets/flamingo (1).png" alt="Logo" width="30"> News 
 
-- **2023/06/30**: Welcome to Polite Flamingo🦩! The preprint of our paper is available on [[arXiv]](https://arxiv.org/abs/2307.01003). You can also see the pdf [[here]](./assets/Visual_Instruction_Tuning_with_Polite_Flamingo.pdf). We are working on curating pretrained checkpoints (Polite & Clever Flamingo) and the dataset (PF-1M), and will release them soon. Stay tuned!
+- **2023/07/07**: We have released the code for loading model, inference, hosting local API, and hosting gradio web demo! We open-source the pretrained checkpoint [here](https://huggingface.co/chendelong/clever_flamingo), including both Clever Flamingo and Polite Flamingo (gen1 and gen2). We also host a web demo at [clever_flamingo.xiaoice.com](http://clever_flamingo.xiaoice.com/), feel free to chat with Clever Flamingo!
+
+- **2023/07/03**: Welcome to Polite Flamingo🦩! The preprint of our paper is available on [[arXiv]](https://arxiv.org/abs/2307.01003). You can also see the pdf [[here]](./assets/Visual_Instruction_Tuning_with_Polite_Flamingo.pdf). We are working on curating pretrained checkpoints (Polite & Clever Flamingo) and the dataset (PF-1M), and will release them soon. Stay tuned!
 
 
 ## <img src="assets/flamingo (2).png" alt="Logo" width="30"> Introduction
@@ -179,7 +179,7 @@ python gradio_demo.py
 The dataset is available [here](https://huggingface.co/datasets/chendelong/PF-1M/tree/main). We will add more details soon.
 
 
-## <img src="assets/flamingo (6).png" alt="Logo" width="30"> Citation
+## <img src="assets/flamingo (6).png" alt="Logo" width="30"> Acknowledgement
 
 ```bibtex
 @article{chen2023visual,
