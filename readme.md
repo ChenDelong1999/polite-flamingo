@@ -181,6 +181,9 @@ The dataset is available [here](https://huggingface.co/datasets/chendelong/PF-1M
 
 ## <img src="assets/flamingo (6).png" alt="Logo" width="30"> Acknowledgement
 
+Cute Flamingos are painted with [Midjourny](https://www.midjourney.com/), thanks Xinyu Zhou (周欣宇)!
+
+
 ```bibtex
 @article{chen2023visual,
   title={Visual Instruction Tuning with Polite Flamingo},
