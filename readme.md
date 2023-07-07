@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="assets/logo.png" alt="Logo" width="128">
+  <img src="assets/main_logo.png" alt="Logo" width="128">
 
 ## Visual Instruction Tuning with Polite Flamingo
 
