@@ -126,7 +126,7 @@ print(prompt, response, sep='')
 
 ## <img src="assets/flamingo (4).png" alt="Logo" width="30"> Hosting Local API and Web Demo
 
-We suggest to host a local API then host a local [gradio](https://www.gradio.app/) web demo, such that the front-end and back-end is seperated (easier to debug), and the local API could make model inference and evaluations much convinient. 
+We suggest to host a local API then host a local [gradio](https://www.gradio.app/) web demo, such that the front-end and back-end is seperated (easier to debug, since re-loading LLM is slow), and the local API could make model inference and evaluations much convinient. 
 
 To host API and web demo, the following dependencies should be installed:
 
