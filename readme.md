@@ -46,9 +46,9 @@
 
 Recent studies have shown that multi-task fine-tuning of multi-modal Large Language Models (LLMs) using a collection of annotated downstream vision-language datasets leads to substantial improvement. However, a side effect which we termed as "**multi-modal alignment tax**" emerges during this process, where the response formatting ability (i.e., "**politeness**") is significantly affected due to the extremely concise and unformatted nature of raw annotations, leading to reduced human preference. 
 
-<p align="center"><img src="./assets/polite_clever_pipeline.png" alt="teaser" width="450"></p>
-
 In this paper, we propose **Polite Flamingo, a multi-modal response rewriter** that converts raw annotations into their more satisfying "polite" form. Polite Flamingo is trained to reconstruct high-quality responses given their automatically distorted versions, and is then **applied to a wide range of vision-language datasets** for response rewriting. After rigorous filtering, we generate the PF-1M dataset and further validate its value by fine-tuning a multi-modal LLM with it.
+
+<p align="center"><img src="./assets/polite_clever_pipeline.png" alt="teaser" width="450"></p>
 
 
 ## <img src="assets/flamingo (3).png" alt="Logo" width="30"> Loading Clever/Polite Flamingo
