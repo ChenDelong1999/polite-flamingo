@@ -76,7 +76,11 @@ inferencer = Inferencer(
     tuning_config='timdettmers/guanaco-7b',
     )
 
-# Download pretrained checkpoint
+# Load pretrained OpenFlamingo-9B-v2 checkpoint
+checkpoint_path = hf_hub_download("openflamingo/OpenFlamingo-9B-vitl-mpt7b", "checkpoint.pt")
+inferencer.model.load_state_dict(torch.load(checkpoint_path, map_location="cpu"), strict=False)
+
+# Load Clever Flamingo checkpoint
 checkpoint_path = hf_hub_download("chendelong/clever_flamingo", "clever_flamingo.pt")
 inferencer.model.load_state_dict(torch.load(checkpoint_path, map_location="cpu"), strict=False)
 ```
