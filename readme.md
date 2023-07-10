@@ -30,8 +30,8 @@
 [[arXiv]](https://arxiv.org/abs/2307.01003)&nbsp;|&nbsp;
 [[Github]](https://github.com/ChenDelong1999/polite_flamingo)&nbsp;|&nbsp;
 [[Demo]](http://clever_flamingo.xiaoice.com/)&nbsp;|&nbsp;
-[[PF-1M Dataset]](https://huggingface.co/datasets/chendelong/PF-1M)
-
+[[PF-1M Dataset]](https://huggingface.co/datasets/chendelong/PF-1M)&nbsp;|&nbsp;
+[[Training Codebase]](https://github.com/ChenDelong1999/instruct_flamingo)
 </div>
 
 ## <img src="assets/flamingo (1).png" alt="Logo" width="30"> News 
