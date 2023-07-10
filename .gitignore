@@ -2,8 +2,7 @@
 *.json
 
 runs/*
-serving/*
-!serving/images/*
+serving/demo_logs*
 wandb/*
 
 # Byte-compiled / optimized / DLL files
