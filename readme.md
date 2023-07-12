@@ -31,7 +31,10 @@
 [[Demo]](http://clever_flamingo.xiaoice.com/)&nbsp;|&nbsp;
 [[PF-1M Dataset]](https://huggingface.co/datasets/chendelong/PF-1M)&nbsp;|&nbsp;
 [[Training Codebase]](https://github.com/ChenDelong1999/instruct_flamingo)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66e1327ddd23b2b643dd7625e566404dfaf35789
 </div>
 
 ## <img src="assets/flamingo (1).png" alt="Logo" width="30"> News 
@@ -105,8 +108,8 @@ inferencer = Inferencer(
     tuning_config='timdettmers/guanaco-7b',
     )
 
-# Load pretrained OpenFlamingo-9B-v2 checkpoint
-checkpoint_path = hf_hub_download("openflamingo/OpenFlamingo-9B-vitl-mpt7b", "checkpoint.pt")
+# Load pretrained OpenFlamingo-9B checkpoint
+checkpoint_path = hf_hub_download("openflamingo/OpenFlamingo-9B", "checkpoint.pt")
 inferencer.model.load_state_dict(torch.load(checkpoint_path, map_location="cpu"), strict=False)
 
 # Load Clever Flamingo checkpoint
