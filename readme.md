@@ -31,10 +31,7 @@
 [[Demo]](http://clever_flamingo.xiaoice.com/)&nbsp;|&nbsp;
 [[PF-1M Dataset]](https://huggingface.co/datasets/chendelong/PF-1M)&nbsp;|&nbsp;
 [[Training Codebase]](https://github.com/ChenDelong1999/instruct_flamingo)
-<<<<<<< HEAD
 
-=======
->>>>>>> 66e1327ddd23b2b643dd7625e566404dfaf35789
 </div>
 
 ## <img src="assets/flamingo (1).png" alt="Logo" width="30"> News 
