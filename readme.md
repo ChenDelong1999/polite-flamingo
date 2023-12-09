@@ -35,7 +35,7 @@
 </div>
 
 ## <img src="assets/flamingo (1).png" alt="Logo" width="30"> News 
-
+- **2023/12/09**: Our paper ["Visual Instruction Tuning with Polite Flamingo"](https://arxiv.org/abs/2307.01003) is accepted by [AAAI-24](https://aaai.org/aaai-conference/)!
 - **2023/07/12**: We have open sourced the PF-1M dataset at huggingface, one can download it from [[this url]](https://huggingface.co/datasets/chendelong/PF-1M/tree/main). Please see [[The PF-1M Dataset]](#-the-pf-1m-dataset) section for more details. In addition, we also provide implementation details of the response distortion, filtering, and automated evaluation. See [[Implementation Details]](#-implementation-details) section for more details.
 
 - **2023/07/07**: We have released the code for loading model, inference, hosting local API, and hosting gradio web demo! We open-source the pretrained checkpoint [[here]](https://huggingface.co/chendelong/clever_flamingo), including both Clever Flamingo and Polite Flamingo (gen1 and gen2). We also host a web demo at [clever_flamingo.xiaoice.com](http://clever_flamingo.xiaoice.com/), feel free to chat with Clever Flamingo!
